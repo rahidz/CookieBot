@@ -677,7 +677,7 @@ AutoPlay.handleMinigames = function() {
 	  g.lumpRefill.click(); 
 	  g.castSpell(sp); 
 	}
-    sp = g.spells["conjure baked goods"];
+    sp = g.spells["hand of fate"];
 	if (AutoPlay.cpsMult>100) {
 	  if (g.magic>=g.getSpellCost(sp)) { g.castSpell(sp); return; }
 	  if (AutoPlay.canUseLumps && Game.lumps>100) { g.lumpRefill.click(); }
