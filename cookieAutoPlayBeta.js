@@ -693,7 +693,7 @@ AutoPlay.handleMinigames = function() {
 	else if (AutoPlay.preNightMode() && Game.lumpOverripeAge-age < 9*60*60000 && 
 	    (new Date).getMinutes()==59 && !AutoPlay.cheatLumps) 
 	  AutoPlay.assignSpirit(0,"order",0);
-	else AutoPlay.assignSpirit(0,"mother",0); 
+	else AutoPlay.assignSpirit(0,"ruin",0); 
     AutoPlay.assignSpirit(1,"decadence",0);
     AutoPlay.assignSpirit(2,"labor",0);
   }
